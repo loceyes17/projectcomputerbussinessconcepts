@@ -1,8 +1,4 @@
-<%-- 
-    Document   : createRecord
-    Created on : Nov 3, 2015, 5:19:26 PM
-    Author     : John Phillips
---%>
+
 
 <%@page import="java.time.format.DateTimeFormatter"%>
 <%@page import="java.time.LocalTime"%>
@@ -26,17 +22,17 @@
         </script>
     </head>
     <body>
-        <h1><a href="home.html">Superstar Health Care</a></h1>
+        <h1><a href="home.html">video game billing and billing info</a></h1>
         <h2>Create New User Record</h2>
         <form action="create" method="get">
 
             <!-- Used the new HTML5 email type to force the user to enter an email address.-->
             Email: <input type="email" name="email" size="30"  
-                          placeholder="Enter patient's email address here" required>
+                          placeholder="Enter email address" required>
             <br><br>
 
             <!-- Used the new HTML5 number type to force the user to enter a number.-->
-          price: <input type="number" name="bloodsugar" value='120' required>
+          price: <input type="number" name="price" value='120' required>
             <br><br>
 
             Date: <input type="text" name="date" id="datepicker" size="30">

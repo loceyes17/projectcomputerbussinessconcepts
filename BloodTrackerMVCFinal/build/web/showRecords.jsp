@@ -1,21 +1,16 @@
-<%-- 
-    Document   : displayRecords
-    Created on : Nov 3, 2015, 4:52:40 PM
-    Author     : John Phillips
---%>
 
 <%@page import="java.util.List, model.User"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Superstar Health Care</title>
+        <title>video game billing and billing info</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
-        <h1><a href="home.html">Superstar Health Care</a></h1>
+        <h1><a href="home.html">video game billing and billing info</a></h1>
         <h2>User Report</h2>
         <%
             List<User> mydata = (List<User>) request.getAttribute("mydata");

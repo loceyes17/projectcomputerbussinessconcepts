@@ -1,8 +1,3 @@
-<%-- 
-    Document   : getReportByDateRange.jsp
-    Created on : Nov 19, 2015, 4:27:29 PM
-    Author     : John Phillips
---%>
 
 <%@page import="java.time.format.DateTimeFormatter"%>
 <%@page import="java.time.LocalDate"%>
@@ -10,7 +5,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Superstar Health Care</title>
+        <title>vide game billing and billing Care</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="mystyle.css">
@@ -32,12 +27,12 @@
         </script>
     </head>
     <body>
-        <h1><a href="home.html">Superstar Health Care</a></h1>
+        <h1><a href="home.html">video game billing and billing Care</a></h1>
         <h2>Patient Report</h2>
         <form action="retrieve" method="get">
 
             Email: <input type="text" name="email" size="70"
-                          placeholder="Enter patient's email address or leave blank to view all patients">
+                          placeholder="Enter email address or leave blank to view all billing">
             <br><br>
 
             Start Date: <input type="text" name="startdate" id="begindatepicker" size="30" required>
