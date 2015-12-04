@@ -36,7 +36,7 @@
             <br><br>
 
             <!-- Used the new HTML5 number type to force the user to enter a number.-->
-            Blood sugar reading: <input type="number" name="bloodsugar" value='120' required>
+          price: <input type="number" name="bloodsugar" value='120' required>
             <br><br>
 
             Date: <input type="text" name="date" id="datepicker" size="30">
